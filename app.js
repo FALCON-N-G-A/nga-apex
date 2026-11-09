@@ -8,8 +8,8 @@
     document.documentElement.lang = isAr ? "ar" : "en";
     document.body.dir = isAr ? "rtl" : "ltr";
     document.title = isAr
-      ? "NGA Apex — تحميل المنظومة"
-      : "NGA Apex — Official Downloads";
+      ? "NGA — تحميل WATAD"
+      : "NGA — WATAD Downloads";
 
     nodes.forEach((el) => {
       const value = isAr ? el.getAttribute("data-ar") : el.getAttribute("data-en");
