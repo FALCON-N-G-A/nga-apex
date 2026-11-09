@@ -262,7 +262,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .note {
